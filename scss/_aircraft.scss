@@ -1,0 +1,53 @@
+@keyframes aircraft-first {
+    0% {
+        top: 167px;
+        left: 642px;
+    }
+
+    50% {
+        top: 0;
+        left: 1300px;
+    }
+
+    51% {
+        top: 437px;
+        left: 0;
+    }
+
+    100% {
+        top: 167px;
+        left: 642px;
+    }
+}
+
+@keyframes aircraft-second {
+    0% {
+        top: 359px;
+        left: 959px;
+    }
+
+    30% {
+        top: 250px;
+        left: 1300px;
+    }
+
+    31% {
+        top: 600px;
+        left: 0;
+    }
+
+    100% {
+        top: 359px;
+        left: 800px;
+    }
+}
+
+.aircraft-first {
+    position: absolute;
+    animation: aircraft-first 3s linear infinite;
+}
+
+.aircraft-second {
+    position: absolute;
+    animation: aircraft-second 3s linear infinite;
+}
